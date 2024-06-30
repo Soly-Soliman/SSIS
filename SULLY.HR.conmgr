@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="SULLY.HR"
+  DTS:DTSID="{C007C76E-3DC4-4C97-A5B7-D28595BCC56E}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=SULLY;Initial Catalog=HR;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Practice-{C007C76E-3DC4-4C97-A5B7-D28595BCC56E}SULLY.HR;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
