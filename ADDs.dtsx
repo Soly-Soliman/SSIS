@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="ADDs"
   DTS:PackageType="5"
-  DTS:VersionBuild="22"
-  DTS:VersionGUID="{2ADD400D-9CA6-46B2-A76A-3588C4DC4591}">
+  DTS:VersionBuild="27"
+  DTS:VersionGUID="{B1DCEF23-D08F-45EC-BADD-45E64B2F2065}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -73,6 +73,26 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SULLY.HR1]"
+      DTS:CreationName="ADO.NET:System.Data.OleDb.OleDbConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{7692FC7E-D72C-48F6-8318-1A165632434D}"
+      DTS:ObjectName="SULLY.HR1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=SULLY;Initial Catalog=HR;Provider=SQLOLEDB.1;Integrated Security=SSPI;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SULLY.HR1 1]"
+      DTS:CreationName="ADO.NET:System.Data.OleDb.OleDbConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{EAF34E12-7E76-4250-A8CD-29458786CF67}"
+      DTS:ObjectName="SULLY.HR1 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=SULLY;Initial Catalog=HR;Provider=SQLOLEDB.1;Integrated Security=SSPI;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[SULLY.Northwind2021]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{1D403A44-7EC5-477D-A6F8-AF5E3CCE4334}"
@@ -82,6 +102,56 @@
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
           DTS:ConnectionString="Data Source=SULLY;Initial Catalog=Northwind2021;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SULLY.School_Data1]"
+      DTS:CreationName="ADO.NET:System.Data.OleDb.OleDbConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{89EE24F0-9A04-48A7-88F5-7454558A8B92}"
+      DTS:ObjectName="SULLY.School_Data1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=SULLY;Initial Catalog=School_Data;Provider=SQLOLEDB.1;Integrated Security=SSPI;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SULLY.Slowley1]"
+      DTS:CreationName="ADO.NET:System.Data.OleDb.OleDbConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{DFFF73CB-855C-4AE2-8085-732FA90C9D4B}"
+      DTS:ObjectName="SULLY.Slowley1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=SULLY;Initial Catalog=Slowley;Provider=SQLOLEDB.1;Integrated Security=SSPI;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SULLY.Slowley1 1]"
+      DTS:CreationName="ADO.NET:System.Data.OleDb.OleDbConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{44D5F964-B3FA-49D2-B90D-3F87BAEBBFFE}"
+      DTS:ObjectName="SULLY.Slowley1 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=SULLY;Initial Catalog=Slowley;Provider=SQLOLEDB.1;Integrated Security=SSPI;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SULLY.SSIS1]"
+      DTS:CreationName="ADO.NET:System.Data.OleDb.OleDbConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{61203C4B-EF3E-4282-A5EF-47D1E7061910}"
+      DTS:ObjectName="SULLY.SSIS1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=SULLY;Initial Catalog=SSIS;Provider=SQLOLEDB.1;Integrated Security=SSPI;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SULLY.SSIS1 1]"
+      DTS:CreationName="ADO.NET:System.Data.OleDb.OleDbConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{928511ED-C07D-4B0A-9671-139F96263DBA}"
+      DTS:ObjectName="SULLY.SSIS1 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=SULLY;Initial Catalog=SSIS;Provider=SQLOLEDB.1;Integrated Security=SSPI;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -129,6 +199,16 @@
     </DTS:PackageParameter>
   </DTS:PackageParameters>
   <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{81FA09BD-942E-4332-9741-0493BEFE86A5}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="CDC_State">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
       DTS:DTSID="{AC6BF22A-2E5B-493E-99D1-257ECECD3DEA}"
@@ -1144,33 +1224,33 @@
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\Data Flow Task"
-          TopLeft="100.833327824043,324.999997739991" />
+          TopLeft="100.833327824043,351.86666421983" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="229.166684059632,271.266665069593">
+          TopLeft="163.333354323274,150.799999240637">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-53.1333562355891,53.7333326703974"
+              EndConnector="12.6999735007696,201.066664979193"
               Start="0,0"
-              End="-53.1333562355891,46.2333326703974">
+              End="12.6999735007696,193.566664979193">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.8666663351987" />
+                    End="0,96.5333324895965" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,22.8666663351987"
-                    Point2="0,26.8666663351987"
-                    Point3="-4,26.8666663351987" />
+                    Point1="0,96.5333324895965"
+                    Point2="0,100.533332489597"
+                    Point3="4,100.533332489597" />
                   <mssgle:LineSegment
-                    End="-49.1333562355891,26.8666663351987" />
+                    End="8.69997350076963,100.533332489597" />
                   <mssgle:CubicBezierSegment
-                    Point1="-49.1333562355891,26.8666663351987"
-                    Point2="-53.1333562355891,26.8666663351987"
-                    Point3="-53.1333562355891,30.8666663351987" />
+                    Point1="8.69997350076963,100.533332489597"
+                    Point2="12.6999735007696,100.533332489597"
+                    Point3="12.6999735007696,104.533332489597" />
                   <mssgle:LineSegment
-                    End="-53.1333562355891,46.2333326703974" />
+                    End="12.6999735007696,193.566664979193" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1259,7 +1339,7 @@
           PanelSize="184,360.8"
           Size="184,404"
           Id="c282db67-dea8-402f-aaaf-77c7350ed1b7"
-          TopLeft="458.666641305719,146.966665666236">
+          TopLeft="554.49996940295,109.699999258717">
           <GroupLayout.ChildrenIds>
             <s:String>Package\Result 1</s:String>
             <s:String>Package\Result</s:String>
@@ -1271,33 +1351,21 @@
         <NodeLayout
           Size="164,41.6"
           Id="Package\Expression Task 1"
-          TopLeft="147.166684059632,229.666665069593" />
+          TopLeft="81.3333543232736,109.199999240637" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="251.233327824043,345.799997739991">
+          TopLeft="251.233327824043,373.166665349834">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="220.766672175957,65.0000022600092"
+              EndConnector="316.766672175957,0"
               Start="0,0"
-              End="213.266672175957,65.0000022600092">
+              End="309.266672175957,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="106.383336087978,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="106.383336087978,0"
-                    Point2="110.383336087978,0"
-                    Point3="110.383336087978,4" />
-                  <mssgle:LineSegment
-                    End="110.383336087978,61.0000022600092" />
-                  <mssgle:CubicBezierSegment
-                    Point1="110.383336087978,61.0000022600092"
-                    Point2="110.383336087978,65.0000022600092"
-                    Point3="114.383336087978,65.0000022600092" />
-                  <mssgle:LineSegment
-                    End="213.266672175957,65.0000022600092" />
+                    End="309.266672175957,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
